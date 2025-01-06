@@ -26,3 +26,6 @@ If you wish to use the pixel values reported in the output files "ecwaveref" fro
 `cd onedspec`
 
 `mkpkg -p noao update`
+
+## Reported pixel shifts update
+If you wish to use the pixel shifts reported by FIEStool (IRAF) in the output log for anything, you should patch the IRAF print statement as suggested here: https://www.not.iac.es/instruments/fies/fiestool/IRAFpatch.html
